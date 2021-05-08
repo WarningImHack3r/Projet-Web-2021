@@ -6,6 +6,8 @@ Professeur Anas CHAKROUN
 ## But
 Copier la page donnée de manière responsive
 
+> **Remarque : La responsivité ne sera pas assurée pour des largeurs < 260px !**
+
 ## Règles
 - Remplacer le carrousel en haut par un carrousel plus simple
   - Flèches

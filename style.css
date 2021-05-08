@@ -65,6 +65,7 @@ nav {
     box-sizing: border-box;
     box-shadow: 0 5px 50px 0 rgba(210, 210, 210, 0.5);
     margin-bottom: 25px;
+    overflow: hidden;
 }
 
 nav div {
@@ -114,6 +115,32 @@ nav > ul img, #burger > img {
 #burger {
     border: none;
     background: transparent;
+}
+
+@media screen and (max-width: 960px) {
+    #call-us {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    nav {
+        padding: 10px 25px;
+    }
+    
+    nav > ul li:not(:last-child) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    nav {
+        padding: 10px 15px;
+    }
+
+    #burger > img {
+        margin: 0;
+    }
 }
 
 /* Carousel */
