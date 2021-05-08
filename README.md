@@ -26,4 +26,4 @@ Copier la page donnée de manière responsive
 17/05 par mail à chakroun.anas.developer@gmail.com avec object "ESIEA S03 32 - [nom complet] - Evaluation programmation web"
 
 ## Site
-![Site](site.jpg)
+![Site](assets/images/site.jpg)

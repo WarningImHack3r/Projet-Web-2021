@@ -1,1 +1,93 @@
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("assets/font/Poppins/Poppins-Light.ttf") format("truetype");
+}
 
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("assets/font/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("assets/font/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("assets/font/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+
+body {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14pt;
+    margin: 0;
+}
+
+.light {
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 11pt;
+    color: gray;
+}
+
+.medium {
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 15pt;
+}
+
+.semibold {
+    font-family: "Poppins-SemiBold", sans-serif;
+}
+
+button, a, div#logos img {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navbar */
+nav {
+    top: 0;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav div {
+    display: inline;
+    vertical-align: middle;
+}
+
+a#logo > div > p {
+    margin: 0;
+}
+
+#logos a img {
+    height: 25px;
+    margin-right: 15px;
+}
+
+#burger {
+    border: none;
+    background: transparent;
+}
+
+/* Scroll bar & selection */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cee002;
+}
+
+::selection {
+    background-color: #cee002;
+}
