@@ -55,7 +55,7 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     background-color: white;
-    padding: 10px;
+    padding: 25px 50px;
     box-sizing: border-box;
     box-shadow: 0 5px 50px 0 rgba(210, 210, 210, 0.5);
 }
@@ -73,8 +73,21 @@ a#logo > div > p {
     margin: 0;
 }
 
+a#logo > div > p:first-child {
+    font-size: x-large;
+}
+
+a#logo > div > p:last-child {
+    margin-top: -10px;
+}
+
 #call-us {
-    margin-left: 50px;
+    margin-left: 75px;
+    font-size: smaller;
+}
+
+#call-us > span {
+    color: gray;
 }
 
 #logos > a > img, #burger > img {
