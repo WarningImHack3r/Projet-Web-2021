@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
     font-family: "Poppins-Light";
     src: url("assets/font/Poppins/Poppins-Light.ttf") format("truetype");
@@ -18,12 +19,6 @@
     src: url("assets/font/Poppins/Poppins-SemiBold.ttf") format("truetype");
 }
 
-body {
-    font-family: "Poppins-Regular", sans-serif;
-    font-size: 14pt;
-    margin: 0;
-}
-
 .light {
     font-family: "Poppins-Light", sans-serif;
     font-size: 11pt;
@@ -39,8 +34,19 @@ body {
     font-family: "Poppins-SemiBold", sans-serif;
 }
 
+/* Global */
+body {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14pt;
+    margin: 0;
+}
+
 button, a, div#logos > img {
     cursor: pointer;
+}
+
+section {
+    margin: auto 100px;
 }
 
 a {
@@ -58,6 +64,7 @@ nav {
     padding: 25px 50px;
     box-sizing: border-box;
     box-shadow: 0 5px 50px 0 rgba(210, 210, 210, 0.5);
+    margin-bottom: 25px;
 }
 
 nav div {
@@ -90,20 +97,26 @@ a#logo > div > p:last-child {
     color: gray;
 }
 
-#logos > a > img, #burger > img {
-    height: 25px;
-    margin: 0 15px;
+nav > ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    float: right;
+    align-items: center;
+    line-height: 45px;
 }
 
-#right {
-    float: right;
-    line-height: 45px;
+nav > ul img, #burger > img {
+    height: 25px;
+    margin: 0 15px;
 }
 
 #burger {
     border: none;
     background: transparent;
 }
+
+/* Carousel */
 
 /* Scroll bar & selection */
 ::-webkit-scrollbar {
