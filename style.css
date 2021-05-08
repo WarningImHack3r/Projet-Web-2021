@@ -39,7 +39,7 @@ body {
     font-family: "Poppins-SemiBold", sans-serif;
 }
 
-button, a, div#logos img {
+button, a, div#logos > img {
     cursor: pointer;
 }
 
@@ -57,10 +57,15 @@ nav {
     background-color: white;
     padding: 10px;
     box-sizing: border-box;
+    box-shadow: 0 5px 50px 0 rgba(210, 210, 210, 0.5);
 }
 
 nav div {
-    display: inline;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
     vertical-align: middle;
 }
 
@@ -68,9 +73,18 @@ a#logo > div > p {
     margin: 0;
 }
 
-#logos a img {
+#call-us {
+    margin-left: 50px;
+}
+
+#logos > a > img, #burger > img {
     height: 25px;
-    margin-right: 15px;
+    margin: 0 15px;
+}
+
+#right {
+    float: right;
+    line-height: 45px;
 }
 
 #burger {
