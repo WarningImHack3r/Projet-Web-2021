@@ -66,6 +66,7 @@ nav {
     box-shadow: 0 5px 50px 0 rgba(210, 210, 210, 0.5);
     margin-bottom: 25px;
     overflow: hidden;
+    z-index: 10;
 }
 
 nav div {
@@ -77,19 +78,19 @@ img {
     vertical-align: middle;
 }
 
-a#logo > div > p {
+a.logo > div > p {
     margin: 0;
 }
 
-a#logo > div > p:first-child {
+a.logo > div > p:first-child {
     font-size: x-large;
 }
 
-a#logo > div > p:last-child {
+a.logo > div > p:last-child {
     margin-top: -10px;
 }
 
-nav > ul {
+nav > ul, footer ul:last-child {
     margin: 0;
     list-style: none;
     display: flex;
@@ -107,7 +108,7 @@ nav ul li:first-child > span {
     color: gray;
 }
 
-nav > ul img {
+nav > ul img, footer ul:last-child img {
     margin: 0 15px;
     height: 25px;
 }
@@ -156,6 +157,110 @@ nav > ul li:last-child {
 }
 
 /* Carousel */
+
+/* About */
+#about {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 10px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#about h3 {
+    color: #cee002;
+    font-size: 90%;
+    letter-spacing: 3px;
+}
+
+#about h1 {
+    font-size: 200%;
+    line-height: 100%;
+}
+
+#about #experience {
+    margin-top: 200px;
+    display: flex;
+}
+
+#about #experience p {
+    margin: 0;
+}
+
+#about #experience p:first-child {
+    font-size: 600%;
+    margin-left: 65px;
+    z-index: 5;
+}
+
+#about #experience p:nth-child(2) {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#about #square {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    border: 5px solid #cee002;
+    margin-top: -10px;
+}
+
+#about > div > p {
+    color: gray;
+    font-size: 80%;
+}
+
+#about > div:last-child {
+    margin-bottom: 100px;
+}
+
+#about > div:last-child > .dots-bg {
+    background: url(assets/images/dots_bg.png);
+    position: absolute;
+    top: 50%;
+    width: 20%;
+    height: 50%;
+}
+
+#about > div > img {
+    float: right;
+    position: relative;
+    z-index: 5;
+}
+
+/* Footer */
+
+hr {
+    max-width: 95%;
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+    margin: 100px auto;
+}
+
+footer {
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(6, 16%);
+}
+
+footer > div {
+    margin-left: 50px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul:last-child {
+    align-items: baseline;
+}
+
+footer ul li {
+    font-size: smaller;
+}
 
 /* Scroll bar & selection */
 ::-webkit-scrollbar {
