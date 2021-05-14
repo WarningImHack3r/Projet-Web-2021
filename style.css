@@ -46,12 +46,22 @@ button, a, div#logos > img {
 }
 
 section {
-    margin: auto 100px;
+    margin: 100px;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+h1 {
+    font-size: 200%;
+    line-height: 100%;
+    margin-bottom: 75px;
+}
+
+ul {
+    list-style: none;
 }
 
 /* Navbar */
@@ -92,7 +102,6 @@ a.logo > div > p:last-child {
 
 nav > ul, footer ul:last-child {
     margin: 0;
-    list-style: none;
     display: flex;
     float: right;
     align-items: center;
@@ -173,11 +182,6 @@ nav > ul li:last-child {
     letter-spacing: 3px;
 }
 
-#about h1 {
-    font-size: 200%;
-    line-height: 100%;
-}
-
 #about #experience {
     margin-top: 200px;
     display: flex;
@@ -216,12 +220,12 @@ nav > ul li:last-child {
     margin-bottom: 100px;
 }
 
-#about > div:last-child > .dots-bg {
+#about > div:last-child > #dots-bg-about {
     background: url(assets/images/dots_bg.png);
     position: absolute;
     top: 50%;
     width: 20%;
-    height: 50%;
+    height: 60%;
 }
 
 #about > div > img {
@@ -229,6 +233,23 @@ nav > ul li:last-child {
     position: relative;
     z-index: 5;
 }
+
+/* Latest projects */
+
+
+/* Feedbacks */
+
+#feedbacks #dots-bg-feedback {
+    background: url(assets/images/dots_bg.png);
+    position: absolute;
+    z-index: -1;
+    padding: 10rem 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Latest News */
+
 
 /* Footer */
 
@@ -248,10 +269,6 @@ footer {
 
 footer > div {
     margin-left: 50px;
-}
-
-footer ul {
-    list-style: none;
 }
 
 footer ul:last-child {
