@@ -1,12 +1,12 @@
 # Projet web ESIEA 2021
 Professeur Anas CHAKROUN
 
-[Sujet](https://docs.google.com/document/d/1lb-uMzLFX5j1SYizT4z8LypalpZee6FAmU3vZ4fvMnY/edit)
+<span>[Sujet](https://docs.google.com/document/d/1lb-uMzLFX5j1SYizT4z8LypalpZee6FAmU3vZ4fvMnY/edit) - **[Site copié/rendu](https://rasp-al.com/web2021/)**</span>
 
 ## But
 Copier la page donnée de manière responsive
 
-> **Remarque : La responsivité ne sera pas assurée pour des largeurs < 260px !**
+> **Note pour le professeur : La responsivité ne sera pas assurée pour des largeurs < 260px !**
 
 ## Règles
 - Remplacer le carrousel en haut par un carrousel plus simple
@@ -16,7 +16,7 @@ Copier la page donnée de manière responsive
 - Images libres
 - Polices libres
 - Texte libre
-- **Pas de framworks**
+- **Pas de frameworks**
 
 ## Critères d'évaluation
 - Qualité de reproduction
@@ -25,7 +25,7 @@ Copier la page donnée de manière responsive
 - Carrousel _fait en JS_
 
 ## Rendu
-17/05 par mail à chakroun.anas.developer@gmail.com avec object "ESIEA S03 32 - [nom complet] - Evaluation programmation web"
+Lundi 17 mai 2021 **par mail** à chakroun.anas.developer@gmail.com avec objet "`ESIEA S03 32 - [nom complet] - Evaluation programmation web`"
 
-## Site
-![Site](assets/images/site.jpg)
+## Site à copier
+[![Site](assets/images/site.jpg)](https://paul-themes.com/wp/bauhaus/)
