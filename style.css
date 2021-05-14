@@ -89,15 +89,6 @@ a#logo > div > p:last-child {
     margin-top: -10px;
 }
 
-#call-us {
-    margin-left: 75px;
-    font-size: smaller;
-}
-
-#call-us > span {
-    color: gray;
-}
-
 nav > ul {
     margin: 0;
     list-style: none;
@@ -107,9 +98,26 @@ nav > ul {
     line-height: 45px;
 }
 
-nav > ul img, #burger > img {
-    height: 25px;
+nav ul li:first-child {
+    margin-right: 150px;
+    font-size: smaller;
+}
+
+nav ul li:first-child > span {
+    color: gray;
+}
+
+nav > ul img {
     margin: 0 15px;
+    height: 25px;
+}
+
+nav > ul li:not(:last-child) img {
+    height: 20px;
+}
+
+nav > ul li:last-child {
+    margin-left: 150px;
 }
 
 #burger {
@@ -117,9 +125,13 @@ nav > ul img, #burger > img {
     background: transparent;
 }
 
-@media screen and (max-width: 960px) {
-    #call-us {
+@media screen and (max-width: 1160px) {
+    nav ul li:first-child {
         display: none;
+    }
+
+    nav ul li:last-child {
+        margin-left: 15px;
     }
 }
 
