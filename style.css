@@ -369,7 +369,6 @@ header > *:not(:first-child) {
 }
 
 /* Feedbacks */
-
 #feedbacks #dots-bg-feedback {
     background: url(assets/images/dots_bg.png);
     padding: 10rem 0;
@@ -378,7 +377,64 @@ header > *:not(:first-child) {
 }
 
 /* Latest News */
+#news > div {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    align-items: baseline;
+    margin-bottom: 75px;
+}
 
+#news > div h1 {
+    margin-bottom: 0;
+}
+
+#news > div a {
+    color: gray;
+    float: right;
+    transition: .25s ease;
+}
+
+#news > div a:hover {
+    color: #cee002;
+}
+
+#news > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 20px;
+    justify-content: center;
+    max-width: 100%;
+}
+
+#news .hoverable .hoverable-hidden {
+    background-color: white;
+}
+
+#news > ul li {
+    font-size: 70%;
+}
+
+#news > ul li p:first-child {
+    color: gray;
+}
+
+#news > ul li a {
+    color: #cee002;
+}
+
+@media screen and (max-width: 1200px) {
+    #news > ul {
+        grid-template-columns: repeat(2, 370px);
+    }
+}
+
+@media screen and (max-width: 810px) {
+    #news > ul {
+        grid-template-columns: 370px;
+    }
+}
 
 /* Footer */
 
