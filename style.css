@@ -362,6 +362,14 @@ header > *:not(:first-child) {
     #latest-projects > div:first-child {
         display: block;
     }
+    
+    #latest-projects > div:first-child ul li {
+        margin: 10px;
+    }
+
+    #latest-projects > div:first-child ul li:last-child {
+        margin-left: auto;
+    }
 }
 
 /* Feedbacks */
@@ -531,13 +539,9 @@ hr {
 }
 
 footer {
-    margin: 100px auto;
     display: grid;
     grid-template-columns: repeat(6, 16%);
-}
-
-footer > div {
-    margin-left: 50px;
+    margin: 100px 50px;
 }
 
 footer ul:last-child {
@@ -551,6 +555,18 @@ footer ul li {
 @media screen and (max-width: 1350px) {
     footer ul:last-child {
         display: block;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    footer {
+        grid-template-columns: repeat(3, 33%);
+    }
+}
+
+@media screen and (max-width: 570px) {
+    footer {
+        grid-template-columns: 100%;
     }
 }
 
