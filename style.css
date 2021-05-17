@@ -498,6 +498,7 @@ header > *:not(:first-child) {
 
 #news .hoverable .hoverable-hidden {
     background-color: white;
+    border: #cee002 1px solid;
 }
 
 #news > ul li {
