@@ -25,7 +25,7 @@ Copier la page donnée de manière responsive
 - Carrousel _fait en JS_
 
 ## Rendu
-Lundi 17 mai 2021 **par mail** à chakroun.anas.developer@gmail.com avec objet "`ESIEA S03 32 - [nom complet] - Evaluation programmation web`"
+Lundi 17 mai 2021 -> Envoi du lien GitHub **par mail** à chakroun.anas.developer@gmail.com avec objet "`ESIEA S03 32 - [nom complet] - Evaluation programmation web`"
 
 ## Site à copier
 [![Site](assets/images/site.jpg)](https://paul-themes.com/wp/bauhaus/)
