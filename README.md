@@ -1,7 +1,8 @@
 # Projet web ESIEA 2021
-Professeur Anas CHAKROUN
+Professeur Anas CHAKROUN • [Sujet](https://docs.google.com/document/d/1lb-uMzLFX5j1SYizT4z8LypalpZee6FAmU3vZ4fvMnY/edit)
 
-<span>[Sujet](https://docs.google.com/document/d/1lb-uMzLFX5j1SYizT4z8LypalpZee6FAmU3vZ4fvMnY/edit) - **[Site copié/rendu](https://rasp-al.com/web2021/)**</span>
+## État
+**Terminé : [Site copié/rendu](https://rasp-al.com/web2021/)** - [Statistiques du projet](https://wakatime.com/@7115ac31-331a-4c74-8f9e-8d4b1c0bceab/projects/weijrrkmje?start=2021-05-04&end=2021-05-17)
 
 ## But
 Copier la page donnée de manière responsive
